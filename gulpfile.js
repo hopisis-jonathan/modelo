@@ -54,5 +54,5 @@ gulp.task( 'ftp', function () {
 } );
 
 gulp.task('deploy', function () {
-  return runSequence(['`generate-dist`'], ['ftp']);
+  return runSequence(['generate-dist'], ['ftp']);
 });
