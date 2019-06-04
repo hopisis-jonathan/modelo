@@ -45,6 +45,10 @@ Composer
 PHP+HTML
 CSS3
 
+**Gerar Arquivos no diretório dist
+
+Use o comando gulp generate-dist
+
 **Acesso ao modelo rodando
 
 http://www.hopisis.com.br/modelo
