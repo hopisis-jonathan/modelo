@@ -1,6 +1,6 @@
 Sistema de Produtos Modelo
 
-Comandos DDL SQL
+**Comandos DDL SQL
 
 CREATE TABLE IF NOT EXISTS `crm_produto` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -35,7 +35,7 @@ ALTER TABLE `crm_venda_item`
   ADD CONSTRAINT `fk_produto` FOREIGN KEY (`id_produto`) REFERENCES `crm_produto` (`id`),
   ADD CONSTRAINT `fk_venda` FOREIGN KEY (`id_venda`) REFERENCES `crm_venda` (`id`);
 
-Uso no Sistema
+**Uso no Sistema
 
 Framework Slim PHP
 AngularJS
@@ -44,3 +44,7 @@ Gulp
 Composer
 PHP+HTML
 CSS3
+
+**Acesso ao modelo rodando
+
+http://www.hopisis.com.br/modelo
