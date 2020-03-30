@@ -17,14 +17,14 @@ class Cluster extends PDO {
 	
 	function __construct( ) {
 		try {
-			$this->dbhost = "mysql.j4e.com.br";
+			$this->dbhost = "mysql.jonni.com.br";
 			$this->dbport = 3306;
-			$this->dbname = "j4e2";
+			$this->dbname = "jon";
 			$this->charset = 'utf8' ;
 			
 			$this->dsn = "mysql:host={$this->dbhost};port={$this->dbport};dbname={$this->dbname};charset={$this->charset}";
-			$this->username = "j4e2";
-			$this->password = "j43200e*";
+			$this->username = "jondb";
+			$this->password = "jonn_bd_e*";
 
 			if ( self::$handle == null ) {
 				$dbh = parent::__construct( $this->dsn , $this->username , $this->password );
